@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+read anything <&0
+echo "printing ${anything} to stdout" >&1
+echo 'something to stdout' >&1
+echo 'other things to stderr' >&2

@@ -1,0 +1,4 @@
+echo 'something to stdout' >&1
+echo 'another line to stdout' >&1
+echo 'other things to stderr' >&2
+exit 9
